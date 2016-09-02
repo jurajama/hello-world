@@ -1,0 +1,8 @@
+heat_template_version: 2014-10-16
+
+description: Template for deploying a simple VM
+
+parameters:
+  instance_name:
+    description: Name of the instance. This parameter is used as prefix for all OpenStack resources (Cinder, Neutron, and Nova) that are created for particular Instance.
+    type: string
